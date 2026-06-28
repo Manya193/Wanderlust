@@ -129,3 +129,133 @@ body {
 .container {
   max-width: 1450px !important;
 }
+
+/* ================= MOBILE NAVBAR ================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    height: auto;
+    padding: 0.8rem 1rem;
+  }
+
+  .navbar-collapse {
+    margin-top: 0.8rem;
+    background: white;
+    border-radius: 12px;
+  }
+
+  .navbar-nav {
+    width: 100%;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 0.8rem 1rem;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+
+  .navbar-nav:last-child .nav-link:last-child {
+    border-bottom: none;
+  }
+
+  /* Search */
+
+  .search-form,
+  .navbar form {
+    width: 100%;
+    margin: 1rem 0;
+  }
+
+  .navbar form {
+    display: flex;
+  }
+
+  .search-inp {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .btn-search {
+    white-space: nowrap;
+  }
+   .tax-toggle {
+        display: none !important;;
+    }
+
+}
+@media (max-width: 992px) {
+
+    .tax-toggle{
+        width: 100%;
+        margin: 1rem 0 0 0;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+/* =====================================
+        SHOW PAGE
+===================================== */
+
+.listing-details{
+    background:#fff;
+    padding:1.5rem;
+    border-radius:16px;
+    margin-top:1.2rem;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.owner-name{
+    font-size:1.1rem;
+    color:#555;
+    margin-bottom:1rem;
+}
+
+.owner-name b{
+    color:#222;
+    font-weight:700;
+}
+
+.listing-desc{
+    font-size:1.05rem;
+    color:#444;
+    line-height:1.8;
+    margin-bottom:1.4rem;
+}
+
+.listing-price{
+    font-size:1.7rem;
+    font-weight:700;
+    color:#fe424d;
+    margin-bottom:1rem;
+}
+
+.listing-price span{
+    font-size:1rem;
+    color:#666;
+    font-weight:400;
+}
+
+.listing-location{
+    font-size:1.05rem;
+    color:#555;
+}
+
+.listing-location i{
+    color:#fe424d;
+    margin-right:6px;
+}
+
+@media(max-width:768px){
+
+    .listing-details{
+        padding:1rem;
+    }
+
+    .listing-price{
+        font-size:1.4rem;
+    }
+
+}
