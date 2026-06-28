@@ -200,21 +200,15 @@ node app.js
 
 ## 🌐 Live Demo
 
-**Coming Soon...**
+🔗 https://wanderlust-z0s0.onrender.com/listings
 
-*(Update this section after deploying on Render.)*
+
 
 ---
 
-## 📸 Screenshots
+## 📸 Project Preview
 
-Add 3–4 screenshots after deployment:
-
-* 🏠 Home Page
-* 🏡 Listing Details
-* 🔍 Search & Category Filters
-* 🗺️ Interactive Map
-
+![Wanderlust Home Page](images/homepage.png)
 ---
 
 ## 👩‍💻 Author
