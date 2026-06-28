@@ -208,7 +208,7 @@ node app.js
 
 ## 📸 Project Preview
 
-![Wanderlust Home Page](images/homepage.png)
+![Wanderlust Home Page](images/homepage.jpeg)
 ---
 
 ## 👩‍💻 Author
