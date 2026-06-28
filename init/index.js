@@ -8,7 +8,8 @@ require("dotenv").config();
 const mapToken = process.env.MAP_TOKEN;
 const geocodingClient = mbxGeocoding({ accessToken: mapToken });
 
-const MONGO_URL = "mongodb://127.0.0.1:27017/wanderlust";
+require("dotenv").config();
+const MONGO_URL = process.env.ATLASDB_URL;
 
 main()
   .then(() => {
@@ -34,8 +35,7 @@ const initDB = async () => {
       limit: 1,
     }).send();
 
-    obj.owner = "6a16e027964f53df8624fe89";
-
+    obj.owner = "6a3fefe1f19408a29916eb70";
     obj.geometry = response.body.features[0].geometry;
 
     listings.push(obj);
